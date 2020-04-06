@@ -2,7 +2,7 @@
 
 array_strings = ["one", "two", "three", "four", "five"]
 
-5.times do
-    p array_strings.join("" + " balloon ")
+array_strings.each do |item|
+    puts "#{item} balloon"
 end
 
